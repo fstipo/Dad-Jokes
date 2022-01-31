@@ -22,6 +22,52 @@ html {
 }
 
 body {
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   height: 100vh;
+  background-color: #6495ed;
+  overflow: hidden;
+}
+
+.container {
+  margin: auto 3.2rem;
+  padding: 8.6rem 8.6rem;
+  background-color: #faebd7;
+  border-radius: 5px;
+  box-shadow: 0.2rem 0.4rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.content {
+  text-align: center;
+  color: #343a40;
+}
+
+.heading {
+  color: #868e96;
+}
+
+.joke {
+  margin: 4.8rem 0;
+  font-size: 3.2rem;
+}
+
+.btn {
+  padding: 1.2rem 2.4rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #dee2e6;
+  background-color: #0459f5;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0.2rem 0.4rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+  color: #0459f5;
+  background-color: #6495ed;
+  transform: scale(1.05);
 }
